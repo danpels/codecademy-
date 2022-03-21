@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <H1>design style guide</H1>
+    <section class="colors">
+        <div class="colortitle">
+            <h2>COLORS</h2>
+            <div class="colortext">
+                <div class="color1">
+                    <p>#1F859B</p>
+
+                </div>
+                <div class="color2">
+                    <p>#B7BCD1</p>
+                    
+                </div>
+                <div class="color3">
+                    <p>#01464C</p>
+                    
+                </div>
+                <div class="color4">
+                    <p>#000000</p>
+                    
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="colorboxes">
+            <div class=colorbox1>
+                <div class="box1"></div>
+
+            </div>
+            <div class="colorbox2">
+                <div class="box2"></div>
+                <div class="box3"></div>
+                <div class="box4"></div>
+
+            </div>
+           
+        </div>
+
+    </section>
+
+
+
+    <section class="fonts">
+        <div CLASS="HN">
+            <h2> H1TAG HELVETICA NEUE</h2>
+            <P>The quick brown fox jumps over the lazy dog.</P>
+            <H3>FONT WEIGHT : BOLD</H3>
+            <H3>FONT SIZE : 100</H3>
+            <DIV CLASS=color1><p>#1F859B</p></DIV>
+        </div>
+        
+
+        <div CLASS="Poppins">
+            <h2> H2POPPINS</h2>
+            <P>The quick brown fox jumps over the lazy dog.</P>
+            <H3>FONT WEIGHT : MEDIUM</H3>
+            <H3>FONT SIZE : 75</H3>
+            <DIV CLASS=color1><p>#1F859B</p></DIV>
+        </div>
+
+
+        <div CLASS="ARIAL">
+            <h2> P ARIAL</h2>
+            <P>The quick brown fox jumps over the lazy dog.</P>
+            <H3>FONT WEIGHT : REGULAR</H3>
+            <H3>FONT SIZE : 30</H3>
+            <DIV CLASS=color1><p>#1F859B</p></DIV>
+        </div>
+
+    </section>
+    
+
+
+    <section class ="layouts">
+
+    </section>
+</body>
+</html>
+
+*{
+    
+    font-family: 'poppins';
+}
+
+
+h1{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 75px;
+}
+h2{
+    margin-left: 0px;
+    font-size: 30px;
+}
+h3{
+    font-size: 15px;
+}
+p{
+    font-size: 20px;
+}
+
+.colortitle{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.colorboxes{
+    background-color: bisque;
+    margin-left: 500px;
+    float: left;
+    height: 600px;
+    width: 1000px;
+    margin-bottom: 200PX;
+    
+}
+.colorbox1, .colorbox2{
+    display:inline-block;
+    position: relative;
+    float: left;
+}
+.box1{
+    background-color: #1F859B;
+    height: 600px;
+    width:500px
+}
+
+.box2{
+    background-color: #B7BCD1;
+    height: 300px;
+    width:500px
+}
+.box3{
+    background-color: #01464C;
+    height: 150px;
+    width:500px
+}
+.box4{
+    background-color: #000000;
+    height: 150px;
+    width:500px
+}
+
+
+.colortext{
+    height:25px;
+    width: 25px;
+    padding: 25px;
+    
+    margin-top: -25px;
+}
+.color1{
+    background-color: #1F859B;
+    height:25px;
+    width: 25px;
+    margin: 50px;
+    
+}
+.color1 p{
+    margin-left: 50px;
+}
+.color2{
+    background-color: #B7BCD1;
+    height:25px;
+    width: 25px;
+    margin: 50px;
+}
+.color2 p{
+    margin-left: 50px;
+}
+.color3{
+    background-color: #01464C;
+    height:25px;
+    width: 25px;
+    margin: 50px;
+}
+.color3 p{
+    margin-left: 50px;
+}
+.color4{
+    background-color: #000000;
+    height:25px;
+    width: 25px;
+    margin: 50px;
+}
+.color4 p{
+    margin-left: 50px;
+   
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.fonts{
+    padding: 25px;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 800px;
+    margin-bottom: 100px;
+    padding-bottom:200px ;
+    background-color: rgb(255, 255, 255);
+    display: inline-flexbox;
+    
+}
+.HN{
+    font-size: 30px;
+    margin-top: 100px;
+    
+    font-family: Arial, 'Helvetica', sans-serif;
+    
+}
+
+.Poppins{
+    font-size: 30px;
+    margin-top: 100px;
+    
+    font-family: 'poppins';
+    
+}
+
+.Arial{
+    font-size: 30px;
+    margin-top: 100px;
+    background-color: burlywood;
+    height: auto;
+    width: auto;
+    font-family: 'Arial';
+    
+}
+section{
+    flex-direction: column;
+}
